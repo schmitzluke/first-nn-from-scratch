@@ -1,1 +1,1 @@
-# first-nn-from-scratch
+# First Neural Network From Scratch
