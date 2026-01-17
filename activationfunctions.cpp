@@ -3,6 +3,6 @@
 
 ActivationFunctions::ActivationFunctions() {}
 
-static double sigmoid(double input){
-    return (1/ 1 + (double)qExp((double)input));
+double ActivationFunctions::sigmoid(double input){
+    return (1/ (1 + (double)qExp(-(double)input)));
 }
