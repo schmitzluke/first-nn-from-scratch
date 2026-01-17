@@ -14,11 +14,11 @@
 class Neuron
 {
 public:
-    Neuron(std::vector<double> inputs, std::vector<double> weights,double b);
+    Neuron(std::vector<double> weights,double b);
 
     /// @brief inputs are multiplied by weights and all together added by bias and passed through sigmoid function
     /// to squish output in [0,1] intervall
-    double feedForward();
+    double feedForward(std::vector<double> inputs);
 
 private:
     std::vector<double>m_inputs;
