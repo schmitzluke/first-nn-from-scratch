@@ -12,11 +12,13 @@ SOURCES += \
     activationfunctions.cpp \
     main.cpp \
     mainwindow.cpp \
+    neuralnetwork.cpp \
     neuron.cpp
 
 HEADERS += \
     activationfunctions.h \
     mainwindow.h \
+    neuralnetwork.h \
     neuron.h
 
 FORMS += \
